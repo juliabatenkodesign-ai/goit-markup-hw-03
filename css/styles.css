@@ -32,7 +32,7 @@ button {
   cursor: pointer;
 }
 
-image {
+img {
   display: block;
 }
 
@@ -49,12 +49,14 @@ image {
 }
 
 .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .header-container {
@@ -71,6 +73,7 @@ image {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-logo-black {
@@ -167,6 +170,7 @@ image {
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  border: none;
 }
 
 .hero-button:hover,
@@ -244,6 +248,11 @@ image {
   height: 260px;
 }
 
+.team-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -307,6 +316,7 @@ image {
   border-right: 1px solid #e7e9fc;
   padding-block: 32px;
   padding-inline: 16px;
+  border-top: none;
 }
 
 .portfolio-subtitle {
@@ -340,6 +350,7 @@ image {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-black {
